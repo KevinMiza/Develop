@@ -16,8 +16,11 @@ public class Calculadora {
      */
     
         
-    public static int sumarNumeros(int numero1, int numero2){
+    public static int feature1(int numero1, int numero2){
     return numero1+numero2;
+    }
+    
+
     }
     public static void main(String[] args) {
         // TODO code application logic here
@@ -25,8 +28,9 @@ public class Calculadora {
         int num1 = 6;
         int num2 =5;
         
-        int resultado = sumarNumeros(num1,num2);
+        int resultado = feature1(num1,num2);
         System.out.println(resultado);
+ 
     }
 
 }
